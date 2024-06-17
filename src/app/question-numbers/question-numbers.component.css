@@ -1,0 +1,34 @@
+.qn-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px #bebebe solid;
+    border-radius: 5px;
+    padding: 0.3rem;
+    margin: 0.5rem;
+}
+
+.question-number {
+    width: 50px;
+    height: 30px;
+    margin: 5px;
+    border: 1px #dadada solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.question-number.selected {
+    background-color: #eae89c;
+    border-color: #121212;
+}
+
+.question-number:hover {
+    background-color: #dcdcdc;
+}
+
+.question-number.selected:hover {
+    background-color: #dddb93;
+}
