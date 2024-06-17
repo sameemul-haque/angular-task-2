@@ -1,0 +1,15 @@
+.qa-container {
+    background-color: #ffffff;
+    border: 1px #bebebe solid;
+    border-radius: 5px;
+    padding: 0.5rem 0.5rem 5rem;
+    margin: 0.5rem;
+}
+
+.qa-container p,
+.radio-option {
+    border: 1px #dadada solid;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
