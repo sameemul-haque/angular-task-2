@@ -1,0 +1,22 @@
+.action-btns {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    justify-content: right;
+    margin: 0.5rem;
+    border: 1px #bebebe solid;
+    border-radius: 5px;
+}
+
+.next-image {
+    transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 460px) {
+    .action-btns {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

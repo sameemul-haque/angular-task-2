@@ -27,3 +27,20 @@ nav {
 .time-for-total {
     background-color: #d2ff96;
 }
+
+@media only screen and (max-width: 460px) {
+
+    nav {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .general-div {
+        margin: 0;
+        font-size: 0.8rem;
+        height: 20px;
+        width: 100px;
+
+    }
+    
+}
